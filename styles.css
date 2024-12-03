@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fbeffb;
+    color: #333;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to bottom right, #ff7eb3, #ff758c);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #ffcccb;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff7373;
+    transform: scale(1.1);
+}
+
+.gallery {
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+.gallery h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.photo-grid img {
+    width: 100%;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.photo-grid img:hover {
+    transform: scale(1.1);
+}
+
+.message {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff3e0;
+}
+
+.message h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.message p {
+    font-size: 1.8rem;
+    color: #ff6666;
+}
